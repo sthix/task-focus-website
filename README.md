@@ -26,7 +26,7 @@ Pushes to `main` deploy automatically through `.github/workflows/deploy-pages.ym
 
 The site currently says **Coming soon to the App Store**. When the listing is live, replace the two `.app-store-status` elements in `index.html` with links to the final App Store URL.
 
-The support contact is `thanatosclothing@gmail.com`. Update it in `privacy.html` and `support.html` if a dedicated address is preferred.
+The support contact is `sascha.thiele@pm.me`.
 
 ## Technology
 
