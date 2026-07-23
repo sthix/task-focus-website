@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sthix.github.io/task-focus-website/sitemap.xml
