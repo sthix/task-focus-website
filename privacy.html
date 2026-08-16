@@ -26,17 +26,17 @@
       <p class="eyebrow">Privacy / plain and simple</p>
       <h1>What stays<br><em>yours.</em></h1>
       <p>Task Focus is built to help protect your attention—not monetize it. The app has no account system, advertising, or third-party analytics.</p>
-      <div class="meta-line"><span>Effective July 23, 2026</span><span>Task Focus for iPhone</span></div>
+      <div class="meta-line"><span>Effective August 16, 2026</span><span>Task Focus for iPhone</span></div>
     </header>
 
     <div class="legal-content">
       <nav class="legal-nav" aria-label="Privacy policy sections">
-        <a href="#summary">Summary</a><a href="#app-data">Data in the app</a><a href="#permissions">Permissions</a><a href="#purchases">Purchases</a><a href="#website">Website</a><a href="#control">Your control</a><a href="#contact">Contact</a>
+        <a href="#summary">Summary</a><a href="#app-data">Data in the app</a><a href="#icloud">iCloud</a><a href="#permissions">Permissions</a><a href="#purchases">Purchases</a><a href="#website">Website</a><a href="#control">Your control</a><a href="#contact">Contact</a>
       </nav>
       <article class="prose">
         <section id="summary">
           <h2>The short version</h2>
-          <p>Task Focus does not collect, sell, rent, or share your personal information. Your task titles, selected apps, settings, and privacy-preserving usage counters are stored locally on your device. The developer does not operate a server that receives this information.</p>
+          <p>Task Focus does not collect, sell, rent, or share your personal information. Your task titles, selected apps, settings, and usage counters are stored on your device. If you leave iCloud syncing on, your finished sessions and settings also travel between your own devices through the private database of your own iCloud account, encrypted. The developer operates no server, receives none of it, and cannot read any of it.</p>
         </section>
 
         <section id="app-data">
@@ -46,9 +46,20 @@
           <h3>App and website selections</h3>
           <p>If you use app protection, your Screen Time selection is saved locally as Apple-provided opaque tokens. Task Focus uses those tokens to pause your choices during a session. The developer cannot use them to identify or view your activity in other apps.</p>
           <h3>Settings and local measurements</h3>
-          <p>Preferences such as onboarding completion, check-in settings, purchase entitlement, and selected support options are stored locally. Task Focus also keeps aggregate counters on your device, such as the number of focus sessions and remaining free protected sessions. These counters do not include task titles, selected apps, or event-level history and are not transmitted to the developer.</p>
-          <h3>No cloud account or sync</h3>
-          <p>Task Focus does not require an account and does not sync your task data to a developer-operated cloud service.</p>
+          <p>Preferences such as onboarding completion, check-in settings, purchase entitlement, and selected support options are stored locally. Task Focus also keeps aggregate counters on your device, such as how many focus sessions you have finished. These counters do not include task titles or selected apps and are not transmitted to the developer.</p>
+          <h3>Your finished sessions</h3>
+          <p>When a focus session ends, Task Focus records it — what the session was for, when it ran, how it ended, and whether it paused anything. This history lives on your device. Task Focus Pro keeps it for good; without Pro the app keeps the current week.</p>
+        </section>
+
+        <section id="icloud">
+          <h2>iCloud sync</h2>
+          <h3>What syncs, and to whom</h3>
+          <p>If you are signed in to iCloud and leave syncing on, Task Focus carries two things between your own devices: your finished focus sessions, and your app settings. Nothing else. It does this through Apple's CloudKit, in the <strong>private database of your personal iCloud account</strong> — not a server belonging to the developer, because there is no such server. The developer cannot read, copy, or recover any of it.</p>
+          <p>Both are written to CloudKit as encrypted fields, which means Apple cannot read their contents either. Your history is yours in the literal sense: it sits in your account, encrypted, and the only people who can see it are you and whoever holds your unlocked devices.</p>
+          <h3>What never leaves the device</h3>
+          <p>Your Screen Time selection is not synced. The opaque tokens that represent your paused apps stay on the device that chose them, and choosing apps on one iPhone does not move that choice to another.</p>
+          <h3>Turning it off, and taking it with you</h3>
+          <p>Syncing can be turned off in the app's settings, after which everything stays on the single device. You can also export your history as a file you keep, whatever you decide to use next.</p>
         </section>
 
         <section id="permissions">
@@ -74,7 +85,8 @@
 
         <section id="control">
           <h2>Retention and your control</h2>
-          <p>App information remains on your device until it is replaced through normal use or you delete the app and its local data. You can end an active focus session at any time, turn off app protection and notifications, or delete Task Focus to remove its locally stored information.</p>
+          <p>App information remains on your device until it is replaced through normal use or you delete the app and its local data. You can end an active focus session at any time, turn off app protection and notifications, erase your history from within the app, or delete Task Focus to remove its locally stored information.</p>
+          <p>Anything that synced is held in your own iCloud account. Turning syncing off stops anything further from being written; removing the copy Apple holds is done the same way as for any other app, in iOS Settings under your name, iCloud, and the list of apps using iCloud.</p>
           <p>Because the developer does not receive your app data, there is no developer-held task history or profile to access, export, or delete.</p>
         </section>
 
