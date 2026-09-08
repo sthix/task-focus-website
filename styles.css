@@ -62,6 +62,10 @@ h1 em:after{content:"";position:absolute;left:3%;right:-3%;bottom:-.04em;height:
 .app-store-status svg{width:27px;height:27px;fill:currentColor;flex:none}
 .app-store-status span{font-size:1.04rem;font-weight:600;line-height:1.05;letter-spacing:-.02em}
 .app-store-status small{display:block;font-size:.57rem;font-weight:500;letter-spacing:.02em;margin-bottom:3px}
+a.app-store-status{transition:transform .2s ease,box-shadow .2s ease}
+a.app-store-status:hover{transform:translateY(-2px);box-shadow:0 16px 42px rgba(99,209,109,.26)}
+a.app-store-status:focus-visible{outline:2px solid var(--sage);outline-offset:3px}
+@media (prefers-reduced-motion:reduce){a.app-store-status{transition:none}a.app-store-status:hover{transform:none}}
 .text-link,.arrow-link{font-size:.9rem;color:var(--quiet);border-bottom:1px solid var(--line);padding-bottom:4px;transition:color .2s ease,border-color .2s ease}
 .text-link:hover,.arrow-link:hover{color:var(--ink);border-color:var(--sage)}
 .hero-note{margin:20px 0 0;color:var(--muted);font-size:.72rem;letter-spacing:.04em}
