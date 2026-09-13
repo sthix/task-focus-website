@@ -64,6 +64,19 @@ For the baseline window, record the following in App Store Connect Analytics:
 - Product Page Views and First-Time Downloads for each website campaign
 - the exact date range, UTC timezone, storefront or territory filters, device filters, and product-page filters
 
+### Initial baseline snapshot
+
+Captured on 2026-09-13 for 2026-08-15 through 2026-09-11 in UTC. Scope was all territories, devices, and product pages for Task Focus, Apple ID `6792549661`.
+
+| Metric | Source scope | Value |
+| --- | --- | --- |
+| Product Page Views | All source types | 336 |
+| Product Page Views | Web Referrer | Unavailable as a total; the Sources view reported a daily average of 1 unique device |
+| First-Time Downloads | All source types | 37 |
+| First-Time Downloads | Web Referrer | 5 |
+| Web Referrer host breakdown | Website host | Unavailable because there was not enough data to show websites |
+| Campaign metrics | `web_home` | Unavailable because the campaign was created after the baseline window |
+
 If the dashboard does not show a value because volume is below Apple's threshold, record `unavailable (suppressed)`. If the period predates data collection or the account cannot be accessed, record `unavailable` with the reason. Apple campaign metrics appear only after the campaign has run for at least 24 hours and reached the applicable minimum threshold.
 
 ## Campaign links
@@ -72,7 +85,7 @@ Use a single campaign token per published page. Do not split campaigns by CTA po
 
 | Page | Campaign token | Status |
 | --- | --- | --- |
-| Homepage (`/task-focus-website/`) | `web_home` | Create first |
+| Homepage (`/task-focus-website/`) | `web_home` | Active |
 | Block-apps guide | `web_block_apps_guide` | Create when published |
 | No-countdown page | `web_no_countdown` | Create when published |
 
@@ -83,7 +96,7 @@ Create links only in App Store Connect:
 3. Copy the generated URL. It must point to Apple ID `6792549661` and contain Apple's real provider token (`pt`), the page campaign token (`ct`), and media type (`mt=8`).
 4. Use the provider token only as part of an App Store Connect generated campaign URL. It is a public attribution parameter, not an API credential. Do not guess it or document it separately from a verified public campaign link.
 5. Put the generated `web_home` URL into every homepage App Store CTA. Use the page's one token for all CTA placements.
-6. Test the link on desktop and iPhone. Confirm that it opens the Task Focus product page and that `pt`, `ct`, and `mt` remain present after the App Store redirect.
+6. Test the link on desktop and iPhone. Confirm that the requested URL contains `pt`, `ct`, and `mt`, opens the Task Focus product page, and preserves Apple's campaign attribution through the storefront or App Store handoff.
 7. After at least 24 hours, check whether the campaign appears in Analytics. Treat metrics below Apple's minimum threshold as unavailable.
 
 The URL shape is documented for validation only:
@@ -110,8 +123,8 @@ Never substitute a guessed provider token.
 | Sitemap submission | Pending verification | Submit the full sitemap URL after property verification |
 | Homepage URL inspection | Pending verification | Inspect indexed and live versions after property verification |
 | Search Console baseline | Pending verification | Export the four dimensions for the baseline window |
-| App Store Connect baseline | Unavailable | App Store Connect requires an authenticated account session |
-| `web_home` campaign URL | Unavailable | Generate it in App Store Connect; no provider token has been guessed or added |
+| App Store Connect baseline | Complete | Aggregate metrics and unavailable low-volume breakdowns are recorded above |
+| `web_home` campaign URL | Active | Generated in App Store Connect, applied to both homepage download buttons, and validated with desktop and iPhone user agents |
 | Future page campaigns | Not yet applicable | Create each token when its page is published |
 
 ## References
