@@ -10,6 +10,8 @@ Static marketing, privacy, and support site for the **Task Focus** iOS app.
 
 These URLs can be used in App Store Connect for the Marketing URL, Privacy Policy URL, and Support URL.
 
+Acquisition measurement and campaign-link procedures are documented in [ATTRIBUTION.md](ATTRIBUTION.md).
+
 ## Local preview
 
 ```bash
