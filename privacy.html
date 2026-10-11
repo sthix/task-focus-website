@@ -25,18 +25,18 @@
     <header class="subpage-hero reveal">
       <p class="eyebrow">Privacy / plain and simple</p>
       <h1>What stays<br><em>yours.</em></h1>
-      <p>Task Focus is built to help protect your attention—not monetize it. The app has no account system, advertising, or third-party analytics.</p>
-      <div class="meta-line"><span>Effective August 16, 2026</span><span>Task Focus for iPhone</span></div>
+      <p>Task Focus is built to help protect your attention—not monetize it. The app has no account system and no advertising, and the only analytics it sends are anonymous counts you can switch off.</p>
+      <div class="meta-line"><span>Effective October 2026</span><span>Task Focus for iPhone</span></div>
     </header>
 
     <div class="legal-content">
       <nav class="legal-nav" aria-label="Privacy policy sections">
-        <a href="#summary">Summary</a><a href="#app-data">Data in the app</a><a href="#icloud">iCloud</a><a href="#permissions">Permissions</a><a href="#purchases">Purchases</a><a href="#website">Website</a><a href="#control">Your control</a><a href="#contact">Contact</a>
+        <a href="#summary">Summary</a><a href="#app-data">Data in the app</a><a href="#usage-counts">Usage counts</a><a href="#icloud">iCloud</a><a href="#permissions">Permissions</a><a href="#purchases">Purchases</a><a href="#website">Website</a><a href="#control">Your control</a><a href="#contact">Contact</a>
       </nav>
       <article class="prose">
         <section id="summary">
           <h2>The short version</h2>
-          <p>Task Focus does not collect, sell, rent, or share your personal information. Your task titles, selected apps, settings, and usage counters are stored on your device. If you leave iCloud syncing on, your finished sessions and settings also travel between your own devices through the private database of your own iCloud account, encrypted. The developer operates no server, receives none of it, and cannot read any of it.</p>
+          <p>Task Focus does not sell, rent, or share your personal information. Your task titles, selected apps, and settings are stored on your device. Unless you switch it off, the app sends anonymous usage counts — such as “a focus was finished” — that never include your tasks or the apps you pause. If you leave iCloud syncing on, your finished sessions and settings also travel between your own devices through the private database of your own iCloud account, encrypted. The developer operates no server, does not receive your history or settings, and cannot read any of it.</p>
         </section>
 
         <section id="app-data">
@@ -46,9 +46,21 @@
           <h3>App and website selections</h3>
           <p>If you use app protection, your Screen Time selection is saved locally as Apple-provided opaque tokens. Task Focus uses those tokens to pause your choices during a session. The developer cannot use them to identify or view your activity in other apps.</p>
           <h3>Settings and local measurements</h3>
-          <p>Preferences such as onboarding completion, check-in settings, purchase entitlement, and selected support options are stored locally. Task Focus also keeps aggregate counters on your device, such as how many focus sessions you have finished. These counters do not include task titles or selected apps and are not transmitted to the developer.</p>
+          <p>Preferences such as onboarding completion, check-in settings, purchase entitlement, and selected support options are stored locally. Task Focus also keeps aggregate counters on your device, such as how many focus sessions you have finished. These counters do not include task titles or selected apps. How they are shared is described under <a href="#usage-counts">Usage counts</a>.</p>
           <h3>Your finished sessions</h3>
           <p>When a focus session ends, Task Focus records it — what the session was for, when it ran, how it ended, and whether it paused anything. This history lives on your device. Task Focus Pro keeps it for good; without Pro the app keeps the current week.</p>
+        </section>
+
+        <section id="usage-counts">
+          <h2>Usage counts</h2>
+          <h3>What is sent</h3>
+          <p>To learn where the app helps and where people get stuck, Task Focus sends anonymous usage signals to <a href="https://telemetrydeck.com/privacy/">TelemetryDeck</a>, a privacy-focused analytics service based in the EU. Each signal is one of a fixed list of events — for example that a focus was started or finished, that Screen Time access was granted, that a step of the welcome guide was shown, or that the Pro screen was opened — together with the app version, iOS version, device model, and language.</p>
+          <h3>What is never sent</h3>
+          <p>Your task titles, the apps and websites you pause, your history, your name, your Apple Account, and your advertising identifier are never part of a signal. The app has no way to put any of them into one.</p>
+          <h3>How it stays anonymous</h3>
+          <p>Signals carry a salted, one-way hash of an identifier for this installation instead of anything that identifies you, so they cannot be linked back to a person. They are not used for advertising or tracking, and they are not combined with data from other apps or companies.</p>
+          <h3>Switching it off</h3>
+          <p>Turn off <em>Share anonymous usage counts</em> in the app’s Settings tab. From then on nothing is sent, and nothing that happens while it is off is sent later.</p>
         </section>
 
         <section id="icloud">
@@ -87,7 +99,7 @@
           <h2>Retention and your control</h2>
           <p>App information remains on your device until it is replaced through normal use or you delete the app and its local data. You can end an active focus session at any time, turn off app protection and notifications, erase your history from within the app, or delete Task Focus to remove its locally stored information.</p>
           <p>Anything that synced is held in your own iCloud account. Turning syncing off stops anything further from being written; removing the copy Apple holds is done the same way as for any other app, in iOS Settings under your name, iCloud, and the list of apps using iCloud.</p>
-          <p>Because the developer does not receive your app data, there is no developer-held task history or profile to access, export, or delete.</p>
+          <p>Because the developer does not receive your app data, there is no developer-held task history or profile to access, export, or delete. Anonymous usage counts cannot be traced back to you, so they cannot be looked up or removed per person either.</p>
         </section>
 
         <section>
