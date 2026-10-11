@@ -15,16 +15,16 @@ Use one comparable 28-day window across both systems. The initial baseline windo
 
 ## Google Search Console
 
-Property: `https://sthix.github.io/task-focus-website/` (URL-prefix property)
+Property: `taskfocusapp.com` (Domain property, verified by a DNS TXT record in Cloudflare). It covers every protocol and subdomain.
 
-Verification uses the `google-site-verification` meta element in `index.html`. Keep the element published after verification succeeds.
+The site moved from `https://sthix.github.io/task-focus-website/` to `https://taskfocusapp.com/`. Keep the old URL-prefix property for its history; its data before the move is not comparable with the new property's. The `google-site-verification` meta element in `index.html` verifies that old property, so keep it published.
 
 ### Setup and evidence
 
-1. Open the URL-prefix property in Search Console and confirm that ownership is verified.
-2. Submit `https://sthix.github.io/task-focus-website/sitemap.xml` in **Indexing > Sitemaps**.
+1. Open the Domain property in Search Console and confirm that ownership is verified.
+2. Submit `https://taskfocusapp.com/sitemap.xml` in **Indexing > Sitemaps**.
 3. Record the submission date and the status shown by Search Console. A successful submission means Google could read the sitemap, not that every URL is indexed.
-4. Inspect `https://sthix.github.io/task-focus-website/` with URL Inspection.
+4. Inspect `https://taskfocusapp.com/` with URL Inspection.
 5. Record the index status, last crawl time, user-declared canonical, Google-selected canonical, referring sitemap, and any crawl or indexing issue.
 6. Run **Test live URL**, open the tested page details, and confirm that the rendered HTML contains the visible hero heading, hero description, and App Store link.
 
@@ -85,7 +85,7 @@ Use a single campaign token per published page. Do not split campaigns by CTA po
 
 | Page | Campaign token | Status |
 | --- | --- | --- |
-| Homepage (`/task-focus-website/`) | `web_home` | Active |
+| Homepage (`/`) | `web_home` | Active |
 | Block-apps guide | `web_block_apps_guide` | Create when published |
 | No-countdown page | `web_no_countdown` | Create when published |
 
