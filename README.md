@@ -4,9 +4,9 @@ Static marketing, privacy, and support site for the **Task Focus** iOS app.
 
 ## Live site
 
-- Website: https://sthix.github.io/task-focus-website/
-- Privacy policy: https://sthix.github.io/task-focus-website/privacy.html
-- Support: https://sthix.github.io/task-focus-website/support.html
+- Website: https://taskfocusapp.com/
+- Privacy policy: https://taskfocusapp.com/privacy.html
+- Support: https://taskfocusapp.com/support.html
 
 These URLs can be used in App Store Connect for the Marketing URL, Privacy Policy URL, and Support URL.
 
