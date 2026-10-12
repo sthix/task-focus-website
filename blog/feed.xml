@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Task Focus Blog</title>
+    <link>https://taskfocusapp.com/blog/</link>
+    <atom:link href="https://taskfocusapp.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Practical guides to starting tasks, blocking distracting apps on iPhone, and finishing one thing at a time.</description>
+    <language>en</language>
+    <lastBuildDate>Mon, 12 Oct 2026 08:00:00 +0000</lastBuildDate>
+    <item>
+      <title>How to Stop Opening Distracting Apps While You Work on iPhone</title>
+      <link>https://taskfocusapp.com/blog/block-distracting-apps-iphone/</link>
+      <guid isPermaLink="true">https://taskfocusapp.com/blog/block-distracting-apps-iphone/</guid>
+      <description>Silencing notifications isn’t enough. Learn how to quiet your iPhone with Focus, name one task, and pause the apps you open out of habit until it’s done.</description>
+      <pubDate>Mon, 12 Oct 2026 08:00:00 +0000</pubDate>
+      <dc:creator>Sascha Thiele</dc:creator>
+    </item>
+    <item>
+      <title>Pomodoro or Task-Based Focus: How to Choose a Stopping Point</title>
+      <link>https://taskfocusapp.com/blog/pomodoro-vs-task-based-focus/</link>
+      <guid isPermaLink="true">https://taskfocusapp.com/blog/pomodoro-vs-task-based-focus/</guid>
+      <description>Pomodoro ends on the clock; task-based focus ends when the work is done. A fair comparison of both, with research on breaks and a simple way to choose.</description>
+      <pubDate>Mon, 12 Oct 2026 08:00:00 +0000</pubDate>
+      <dc:creator>Sascha Thiele</dc:creator>
+    </item>
+    <item>
+      <title>How to Start a Task When You Keep Putting It Off</title>
+      <link>https://taskfocusapp.com/blog/how-to-start-a-task/</link>
+      <guid isPermaLink="true">https://taskfocusapp.com/blog/how-to-start-a-task/</guid>
+      <description>Turn a vague goal into a first action and a clear moment to begin. A practical guide to if-then planning, with examples for study, work, and home.</description>
+      <pubDate>Mon, 12 Oct 2026 08:00:00 +0000</pubDate>
+      <dc:creator>Sascha Thiele</dc:creator>
+    </item>
+    <item>
+      <title>Why You Keep Thinking About the Last Task</title>
+      <link>https://taskfocusapp.com/blog/attention-residue-task-switching/</link>
+      <guid isPermaLink="true">https://taskfocusapp.com/blog/attention-residue-task-switching/</guid>
+      <description>Attention residue explains why a quick check costs more than it seems. What the research says, and a three-line return note that makes switching easier.</description>
+      <pubDate>Mon, 12 Oct 2026 08:00:00 +0000</pubDate>
+      <dc:creator>Sascha Thiele</dc:creator>
+    </item>
+    <item>
+      <title>Why Your To-Do List Never Fits Your Day</title>
+      <link>https://taskfocusapp.com/blog/realistic-daily-task-planning/</link>
+      <guid isPermaLink="true">https://taskfocusapp.com/blog/realistic-daily-task-planning/</guid>
+      <description>Separate your task inventory from today’s commitment, estimate from past experience, and plan a day that fits. With a worked example and an evening check.</description>
+      <pubDate>Mon, 12 Oct 2026 08:00:00 +0000</pubDate>
+      <dc:creator>Sascha Thiele</dc:creator>
+    </item>
+  </channel>
+</rss>

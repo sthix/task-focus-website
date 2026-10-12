@@ -10,6 +10,7 @@
   <meta property="og:description" content="A gentler way to begin, protect, and finish one task on iPhone.">
   <meta property="og:type" content="website">
   <link rel="canonical" href="https://taskfocusapp.com/">
+  <link rel="alternate" type="text/markdown" title="Markdown version" href="/index.html.md">
   <meta property="og:url" content="https://taskfocusapp.com/">
   <meta property="og:image" content="https://taskfocusapp.com/assets/social-card.png">
   <meta name="twitter:card" content="summary_large_image">
@@ -20,6 +21,48 @@
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
   <noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://taskfocusapp.com/#website",
+        "name": "Task Focus",
+        "url": "https://taskfocusapp.com/",
+        "inLanguage": "en",
+        "publisher": {"@id": "https://taskfocusapp.com/#organization"}
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://taskfocusapp.com/#organization",
+        "name": "Task Focus",
+        "url": "https://taskfocusapp.com/",
+        "logo": "https://taskfocusapp.com/assets/app-icon-180.png",
+        "founder": {"@type": "Person", "name": "Sascha Thiele", "url": "https://github.com/sthix"},
+        "email": "sascha.thiele@pm.me",
+        "sameAs": ["https://apps.apple.com/app/id6792549661", "https://github.com/sthix"]
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://taskfocusapp.com/#app",
+        "name": "Task Focus",
+        "alternateName": "Task Focus: ADHD App Blocker",
+        "description": "A free iPhone app blocker that pauses the distracting apps you choose until one task is done. No countdown, no streaks, no account, and no subscription.",
+        "url": "https://taskfocusapp.com/",
+        "image": "https://taskfocusapp.com/assets/task-focus-home.webp",
+        "screenshot": ["https://taskfocusapp.com/assets/task-focus-home.webp", "https://taskfocusapp.com/assets/blog/blog-paused-app.webp", "https://taskfocusapp.com/assets/blog/blog-focus-active.webp"],
+        "operatingSystem": "iOS 17.0 or later",
+        "applicationCategory": "ProductivityApplication",
+        "installUrl": "https://apps.apple.com/app/id6792549661",
+        "author": {"@type": "Person", "name": "Sascha Thiele", "url": "https://github.com/sthix"},
+        "publisher": {"@id": "https://taskfocusapp.com/#organization"},
+        "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Free download. App pausing is always free; Task Focus Pro is an optional one-time in-app purchase."},
+        "featureList": ["Pauses chosen apps, categories, and websites until a task is marked done", "Paused apps show your current task instead of the feed", "No countdown: elapsed time counts up", "Safety limit of 1 to 8 hours returns apps automatically", "Lock Screen Live Activity and Dynamic Island", "Scheduled pausing and iOS Focus filter", "No account, no ads, no subscription"]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -34,6 +77,7 @@
     </button>
     <nav id="site-nav" class="site-nav" aria-label="Main navigation" data-nav>
       <a href="#how-it-works">How it works</a>
+      <a href="blog/">Blog</a>
       <a href="#privacy">Privacy</a>
       <a href="support.html">Support</a>
       <a class="nav-cta" href="#availability">App Store <span aria-hidden="true">↗</span></a>
@@ -200,7 +244,7 @@
   <footer class="site-footer">
     <a class="brand footer-brand" href="./"><img src="assets/app-icon.svg" alt="" width="34" height="34"><span>Task Focus</span></a>
     <p>One thing is enough.</p>
-    <nav aria-label="Footer navigation"><a href="privacy.html">Privacy</a><a href="support.html">Support</a><a href="https://github.com/sthix" rel="me">Developer</a></nav>
+    <nav aria-label="Footer navigation"><a href="blog/">Blog</a><a href="privacy.html">Privacy</a><a href="support.html">Support</a><a href="https://github.com/sthix" rel="me">Developer</a></nav>
     <small>© <span data-year></span> Sascha Thiele. Apple, App Store, iPhone, Dynamic Island, and Screen Time are trademarks of Apple Inc.</small>
   </footer>
 </body>
