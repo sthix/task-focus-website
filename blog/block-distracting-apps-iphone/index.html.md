@@ -90,7 +90,7 @@ Task Focus is a free iPhone app that pauses the apps you choose until your task 
 
 *Opening a paused app mid-task shows the task you chose, not the feed.*
 
-Two details make this safe to try. First, you set a safety limit between one and eight hours, and your apps come back on their own at that point even if you never return to Task Focus. Second, you can always end a focus without finishing it, or switch app pausing off in Settings.
+Two details make this safe to try. First, you set a safety limit of one, two, four, or eight hours, and your apps come back on their own at that point even if you never return to Task Focus. Second, you can always end a focus without finishing it, or switch app pausing off in Settings.
 
 If you already use a Work or Study Focus from Step 1, you can add Task Focus as a **Focus filter** on it, so turning on that Focus also pauses the apps you chose.
 

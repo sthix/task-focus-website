@@ -86,6 +86,8 @@ Use a single campaign token per published page. Do not split campaigns by CTA po
 | Page | Campaign token | Status |
 | --- | --- | --- |
 | Homepage (`/`) | `web_home` | Active |
+| App Store QR code (`assets/app-store-qr.svg`, homepage) | `web_qr` | Live in page; add in App Store Connect |
+| Support, privacy, and 404 pages | `web_site` | Live in page; add in App Store Connect |
 | Block-apps guide | `web_block_apps_guide` | Create when published |
 | No-countdown page | `web_no_countdown` | Create when published |
 | Blog index (`/blog/`) | `web_blog` | Live in page; add in App Store Connect |
@@ -131,7 +133,7 @@ Never substitute a guessed provider token.
 | Homepage URL inspection | Pending verification | Inspect indexed and live versions after property verification |
 | Search Console baseline | Pending verification | Export the four dimensions for the baseline window |
 | App Store Connect baseline | Complete | Aggregate metrics and unavailable low-volume breakdowns are recorded above |
-| `web_home` campaign URL | Active | Generated in App Store Connect, applied to both homepage download buttons, and validated with desktop and iPhone user agents |
+| `web_home` campaign URL | Active | Generated in App Store Connect, applied to every homepage download button and the header button, and validated with desktop and iPhone user agents |
 | Future page campaigns | Not yet applicable | Create each token when its page is published |
 
 ## References

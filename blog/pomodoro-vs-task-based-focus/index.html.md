@@ -104,7 +104,7 @@ Common reasons are that the timer ends when momentum is building, that the task 
 
 ### Does Task Focus have a Pomodoro timer?
 
-No. Task Focus has no countdown. It shows elapsed time and ends a focus when you mark the task done, with a safety limit you set between one and eight hours. You can use any timer app alongside it.
+No. Task Focus has no countdown. It shows elapsed time and ends a focus when you mark the task done, with a safety limit you set of one, two, four, or eight hours. You can use any timer app alongside it.
 
 ## Try it with Task Focus
 

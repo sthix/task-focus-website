@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#031018">
+  <meta name="theme-color" content="#edf2ec" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0c1611" media="(prefers-color-scheme: dark)">
   <title>Attention Residue: Why the Last Task Lingers | Task Focus</title>
   <meta name="description" content="Attention residue explains why a quick check costs more than it seems. What the research says, and a three-line return note that makes switching easier.">
   <link rel="canonical" href="https://taskfocusapp.com/blog/attention-residue-task-switching/">
@@ -25,7 +26,7 @@
   <meta name="author" content="Sascha Thiele">
   <link rel="alternate" type="application/rss+xml" title="Task Focus blog" href="/blog/feed.xml">
   <link rel="alternate" type="text/markdown" title="Markdown version" href="https://taskfocusapp.com/blog/attention-residue-task-switching/index.html.md">
-  <link rel="icon" href="/assets/app-icon.svg" type="image/svg+xml">
+  <link rel="icon" href="/assets/app-icon-32.png" type="image/png" sizes="32x32">
   <link rel="apple-touch-icon" href="/assets/app-icon-180.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="preload" href="/assets/fonts/Prompt-Regular.woff2" as="font" type="font/woff2" crossorigin>
@@ -129,9 +130,18 @@
 <body class="subpage">
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header" data-header>
-    <a class="brand" href="/" aria-label="Task Focus home"><img src="/assets/app-icon.svg" alt="" width="38" height="38"><span>Task Focus</span></a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle><span></span><span></span><span class="sr-only">Open navigation</span></button>
-    <nav id="site-nav" class="site-nav" aria-label="Main navigation" data-nav><a href="/#how-it-works">How it works</a><a href="/blog/" aria-current="page">Blog</a><a href="/support.html">Support</a><a class="nav-cta" href="https://apps.apple.com/app/apple-store/id6792549661?pt=128083530&amp;ct=web_blog_attention&amp;mt=8">App Store <span aria-hidden="true">↗</span></a></nav>
+    <div class="header-inner">
+      <a class="brand" href="/" aria-label="Task Focus home"><picture><source srcset="/assets/app-icon-dark-96.webp" media="(prefers-color-scheme: dark)"><img src="/assets/app-icon-96.webp" alt="" width="34" height="34"></picture><span>Task Focus</span></a>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation" data-nav>
+        <a href="/#how-it-works">How it works</a>
+        <a href="/#pricing">Pricing</a>
+        <a href="/#faq">FAQ</a>
+        <a href="/blog/" aria-current="page">Guides</a>
+        <a href="/support.html">Support</a>
+      </nav>
+      <a class="nav-cta" href="https://apps.apple.com/app/apple-store/id6792549661?pt=128083530&amp;ct=web_blog_attention&amp;mt=8"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.7 12.9c0-2.5 2-3.7 2.1-3.8a4.5 4.5 0 0 0-3.5-1.9c-1.5-.1-2.9.9-3.7.9-.7 0-1.9-.9-3.2-.9A4.7 4.7 0 0 0 4.5 9.6c-1.7 2.9-.4 7.2 1.2 9.6.8 1.2 1.8 2.5 3.1 2.4 1.2 0 1.7-.8 3.2-.8s1.9.8 3.2.8c1.3 0 2.2-1.2 3-2.4a10 10 0 0 0 1.4-2.8 4.1 4.1 0 0 1-2.9-3.5ZM14.3 5.7a4.2 4.2 0 0 0 1-3.1 4.3 4.3 0 0 0-2.9 1.5 4 4 0 0 0-1 3c1.1.1 2.2-.5 2.9-1.4Z"/></svg>Get the app</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle><span></span><span></span><span class="sr-only">Open navigation</span></button>
+    </div>
   </header>
 
   <main id="main" class="article-main">
@@ -208,14 +218,15 @@
       </div>
 
       <aside class="article-cta" aria-labelledby="cta-title">
-        <p class="eyebrow">One small finish line</p>
+        <picture><source srcset="/assets/app-icon-dark-256.webp" media="(prefers-color-scheme: dark)"><img src="/assets/app-icon-256.webp" class="icon"  alt="" width="76" height="76" loading="lazy"></picture>
+        <p class="eyebrow">Task Focus for iPhone</p>
         <h2 id="cta-title">Choose one concrete task for your next session.</h2>
         <p>Protect it from optional app switches, and come back to it without the feed in between.</p>
         <a class="app-store-status" href="https://apps.apple.com/app/apple-store/id6792549661?pt=128083530&amp;ct=web_blog_attention&amp;mt=8" aria-label="Download Task Focus on the App Store">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.7 12.9c0-2.5 2-3.7 2.1-3.8a4.5 4.5 0 0 0-3.5-1.9c-1.5-.1-2.9.9-3.7.9-.7 0-1.9-.9-3.2-.9A4.7 4.7 0 0 0 4.5 9.6c-1.7 2.9-.4 7.2 1.2 9.6.8 1.2 1.8 2.5 3.1 2.4 1.2 0 1.7-.8 3.2-.8s1.9.8 3.2.8c1.3 0 2.2-1.2 3-2.4a10 10 0 0 0 1.4-2.8 4.1 4.1 0 0 1-2.9-3.5ZM14.3 5.7a4.2 4.2 0 0 0 1-3.1 4.3 4.3 0 0 0-2.9 1.5 4 4 0 0 0-1 3c1.1.1 2.2-.5 2.9-1.4Z"/></svg>
         <span><small>Download on the</small>App Store</span>
       </a>
-        <small>Free app pausing · iPhone, iOS 17 or later · Optional one-time Pro</small>
+        <small>Free app pausing on iPhone with iOS 17 or later. Pro is an optional one-time purchase.</small>
       </aside>
 
       <section class="sources" aria-labelledby="sources-title">
@@ -227,7 +238,7 @@
       </section>
 
       <footer class="author-box">
-        <img src="/assets/app-icon.svg" alt="" width="52" height="52">
+        <picture><source srcset="/assets/app-icon-dark-256.webp" media="(prefers-color-scheme: dark)"><img src="/assets/app-icon-256.webp" alt="" width="52" height="52"></picture>
         <p><strong>Sascha Thiele</strong>Independent developer of Task Focus, an iPhone app that pauses distracting apps until one task is done. Writes about focus, planning, and getting started, with sources linked so you can check the research yourself. <a href="https://github.com/sthix" rel="me author">GitHub</a></p>
       </footer>
     </article>
@@ -241,6 +252,17 @@
     </section>
   </main>
 
-  <footer class="site-footer"><a class="brand footer-brand" href="/"><img src="/assets/app-icon.svg" alt="" width="34" height="34"><span>Task Focus</span></a><p>One thing is enough.</p><nav aria-label="Footer navigation"><a href="/blog/">Blog</a><a href="/privacy.html">Privacy</a><a href="/support.html">Support</a><a href="https://github.com/sthix" rel="me">Developer</a></nav><small>© <span data-year></span> Sascha Thiele. Apple, App Store, iPhone, Dynamic Island, and Screen Time are trademarks of Apple Inc.</small></footer>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <a class="brand footer-brand" href="/"><picture><source srcset="/assets/app-icon-dark-96.webp" media="(prefers-color-scheme: dark)"><img src="/assets/app-icon-96.webp" alt="" width="30" height="30"></picture><span>Task Focus</span></a>
+        <p class="footer-tag">A free iPhone app blocker that pauses distracting apps until one task is done. One thing is enough.</p>
+      </div>
+      <nav class="footer-col" aria-label="Product"><p class="footer-title">Product</p><ul><li><a href="/#how-it-works">How it works</a></li><li><a href="/#compare">Compare</a></li><li><a href="/#pricing">Pricing</a></li><li><a href="/#faq">FAQ</a></li><li><a href="https://apps.apple.com/app/apple-store/id6792549661?pt=128083530&amp;ct=web_blog_attention&amp;mt=8">Download on the App Store</a></li></ul></nav>
+      <nav class="footer-col" aria-label="Guides"><p class="footer-title">Guides</p><ul><li><a href="/blog/block-distracting-apps-iphone/">Block distracting apps on iPhone</a></li><li><a href="/blog/pomodoro-vs-task-based-focus/">Pomodoro vs. task-based focus</a></li><li><a href="/blog/how-to-start-a-task/">How to start a task</a></li><li><a href="/blog/attention-residue-task-switching/">Attention residue</a></li><li><a href="/blog/realistic-daily-task-planning/">Realistic daily planning</a></li><li><a href="/blog/">All guides</a></li></ul></nav>
+      <nav class="footer-col" aria-label="Help"><p class="footer-title">Help</p><ul><li><a href="/support.html">Support</a></li><li><a href="/privacy.html">Privacy policy</a></li><li><a href="mailto:sascha.thiele@pm.me?subject=Task%20Focus">Contact</a></li><li><a href="https://github.com/sthix" rel="me">Developer</a></li></ul></nav>
+      <p class="footer-legal">© <span data-year>2026</span> Sascha Thiele. Apple, App Store, iPhone, Dynamic Island, and Screen Time are trademarks of Apple Inc.</p>
+    </div>
+  </footer>
 </body>
 </html>

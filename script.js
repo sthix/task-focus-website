@@ -1,40 +1,32 @@
-const header = document.querySelector('[data-header]');
-const nav = document.querySelector('[data-nav]');
-const navToggle = document.querySelector('[data-nav-toggle]');
+(() => {
+  const header = document.querySelector('[data-header]');
+  const toggle = document.querySelector('[data-nav-toggle]');
+  const nav = document.querySelector('[data-nav]');
 
-const updateHeader = () => header?.classList.toggle('scrolled', window.scrollY > 18);
-updateHeader();
-window.addEventListener('scroll', updateHeader, { passive: true });
+  const setHeader = () => header?.classList.toggle('scrolled', window.scrollY > 8);
+  setHeader();
+  window.addEventListener('scroll', setHeader, { passive: true });
 
-navToggle?.addEventListener('click', () => {
-  const isOpen = nav?.classList.toggle('open') ?? false;
-  navToggle.setAttribute('aria-expanded', String(isOpen));
-  const label = navToggle.querySelector('.sr-only');
-  if (label) label.textContent = isOpen ? 'Close navigation' : 'Open navigation';
-});
+  const setNav = (open) => {
+    nav?.classList.toggle('open', open);
+    toggle?.setAttribute('aria-expanded', String(open));
+    const label = toggle?.querySelector('.sr-only');
+    if (label) label.textContent = open ? 'Close navigation' : 'Open navigation';
+  };
+  const closeNav = () => setNav(false);
+  toggle?.addEventListener('click', () => setNav(!nav.classList.contains('open')));
+  nav?.querySelectorAll('a').forEach((link) => link.addEventListener('click', closeNav));
+  document.addEventListener('keydown', (event) => { if (event.key === 'Escape') closeNav(); });
 
-nav?.addEventListener('click', (event) => {
-  if (!(event.target instanceof HTMLAnchorElement)) return;
-  nav.classList.remove('open');
-  navToggle?.setAttribute('aria-expanded', 'false');
-});
-
-const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-const revealItems = document.querySelectorAll('.reveal');
-
-if (reducedMotion || !('IntersectionObserver' in window)) {
-  revealItems.forEach((item) => item.classList.add('is-visible'));
-} else {
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (!entry.isIntersecting) return;
-      entry.target.classList.add('is-visible');
-      observer.unobserve(entry.target);
+  // Hero demo: what you type appears on the paused-app screen. Nothing leaves the page.
+  const input = document.querySelector('[data-task-input]');
+  const output = document.querySelector('[data-task-output]');
+  if (input && output) {
+    const fallback = output.textContent;
+    input.addEventListener('input', () => {
+      output.textContent = input.value.trim() || fallback;
     });
-  }, { threshold: 0.14, rootMargin: '0px 0px -4% 0px' });
-  revealItems.forEach((item) => observer.observe(item));
-}
+  }
 
-document.querySelectorAll('[data-year]').forEach((node) => {
-  node.textContent = String(new Date().getFullYear());
-});
+  document.querySelectorAll('[data-year]').forEach((node) => { node.textContent = new Date().getFullYear(); });
+})();

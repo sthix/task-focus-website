@@ -6,10 +6,10 @@
 
 - **What it is:** Task Focus is an iPhone app blocker built around one task. You write the one thing you want to finish, choose the distracting apps, app categories, or websites to pause, and they stay paused until you mark the task done.
 - **Platform:** iPhone only, iOS 17 or later. No Android, Mac, Windows, or browser-extension version.
-- **Price:** Free to download. Pausing apps is free with no limit on sessions, no account, no ads, and no subscription. Task Focus Pro is an optional one-time purchase (non-consumable, no renewal) that keeps your full history, shows insights, adds a profile per kind of focus, and allows more than one schedule.
-- **How a session ends:** There is no countdown. Elapsed time counts up. Apps come back when you tap "Finish and restore apps". A safety limit you set (1 to 8 hours) returns them automatically if you never come back. You can also end without finishing at any time.
+- **Price:** Free to download. Pausing apps is free with no limit on sessions, no account, no ads, and no subscription. Task Focus Pro is an optional one-time purchase ($19.99 in the US; non-consumable, no renewal) that keeps your full searchable history, reads insights across 30 days or all time, allows a five-minute break from a paused app up to three times a focus, adds more profiles and schedules (free keeps one of each), and exports your history. A seven-day Pro trial starts automatically the first time you finish a task.
+- **How a session ends:** There is no countdown. Elapsed time counts up. Apps come back when you tap "Finish and restore apps". A safety limit you set (1, 2, 4, or 8 hours) returns them automatically if you never come back. You can also end without finishing at any time.
 - **What a paused app shows:** Opening a paused app mid-task shows "You're finishing: [your task]" and a "Back to it" button instead of the app.
-- **Other features:** Lock Screen Live Activity and Dynamic Island with the task and elapsed time, a widget, optional gentle check-in notifications, scheduled pausing (for example weekday mornings), and an iOS Focus filter so a Work or Study Focus can pause the chosen apps. No streaks, scores, or badges.
+- **Other features:** Lock Screen Live Activity and Dynamic Island with the task and elapsed time, a widget, optional gentle check-in notifications, scheduled pausing (for example weekday mornings), and an iOS Focus filter so a Work or Study Focus can pause the chosen apps. No scores and nothing to lose: the app quietly notes how many days in a row you showed up, but a missed day takes nothing away and the longest run is kept.
 - **Privacy:** No account. Task titles and app choices stay on the device (app choices are Apple Screen Time tokens). History can sync through the user's own private iCloud database as encrypted fields and can be exported. Anonymous usage counts (for example "a focus was finished") can be switched off in Settings.
 - **Requires:** Apple Screen Time (Family Controls) authorization, requested only when you turn on app pausing.
 - **App Store:** "Task Focus: ADHD App Blocker", Apple ID 6792549661. Download: https://apps.apple.com/app/apple-store/id6792549661?pt=128083530&ct=web_ai&mt=8
@@ -102,7 +102,7 @@ Task Focus is a free iPhone app that pauses the apps you choose until your task 
 
 *Opening a paused app mid-task shows the task you chose, not the feed.*
 
-Two details make this safe to try. First, you set a safety limit between one and eight hours, and your apps come back on their own at that point even if you never return to Task Focus. Second, you can always end a focus without finishing it, or switch app pausing off in Settings.
+Two details make this safe to try. First, you set a safety limit of one, two, four, or eight hours, and your apps come back on their own at that point even if you never return to Task Focus. Second, you can always end a focus without finishing it, or switch app pausing off in Settings.
 
 If you already use a Work or Study Focus from Step 1, you can add Task Focus as a **Focus filter** on it, so turning on that Focus also pauses the apps you chose.
 
@@ -265,7 +265,7 @@ Common reasons are that the timer ends when momentum is building, that the task 
 
 ### Does Task Focus have a Pomodoro timer?
 
-No. Task Focus has no countdown. It shows elapsed time and ends a focus when you mark the task done, with a safety limit you set between one and eight hours. You can use any timer app alongside it.
+No. Task Focus has no countdown. It shows elapsed time and ends a focus when you mark the task done, with a safety limit you set of one, two, four, or eight hours. You can use any timer app alongside it.
 
 ## Try it with Task Focus
 
@@ -588,7 +588,7 @@ It’s worth being modest about what any planning method can promise. A large 20
 
 A good plan still has to be started, one task at a time. When it’s time for your main outcome, take the first piece of it, such as “write the proposal outline,” and protect it. If you tend to put it off, our guide on [how to start a task you keep putting off](https://taskfocusapp.com/blog/how-to-start-a-task/) helps turn it into a first step with a clear moment to begin.
 
-Task Focus is where that one task lives while you work on it. Planning happens wherever you like, on paper, in a notes app, or in your calendar. Task Focus doesn’t replace any of that. You bring in the next concrete task, pause the apps that pull you away, and mark it done. Each focus you finish appears in your history with how long it took (the free version keeps the current week), so your evening check has real numbers to compare your estimates against.
+Task Focus is where that one task lives while you work on it. Planning happens wherever you like, on paper, in a notes app, or in your calendar. Task Focus doesn’t replace any of that. You bring in the next concrete task, pause the apps that pull you away, and mark it done. Each focus you finish appears in your history with how long it took (the free version shows the last seven days), so your evening check has real numbers to compare your estimates against.
 
 ## Frequently asked questions
 
