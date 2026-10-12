@@ -49,9 +49,14 @@ Open http://localhost:8080.
 
 Pushes to `main` deploy automatically through `.github/workflows/deploy-pages.yml`.
 
-## Before the App Store launch
+## Design notes
 
-The site currently says **Coming soon to the App Store**. When the listing is live, replace the two `.app-store-status` elements in `index.html` with links to the final App Store URL.
+- One stylesheet (`styles.css`) for every page, with light and dark themes from the tokens at the top. The palette follows the app's own in-focus screens.
+- Every page shares the same header (with a "Get the app" button) and footer (which links every guide). When you add an article, add it to the footer's Guides list on every page.
+- Every page has `<meta name="apple-itunes-app">`, so iPhone Safari shows Apple's Smart App Banner.
+- The homepage hero is a live demo: what visitors type appears on a mock paused-app screen. It runs entirely in the browser.
+- The app icon comes from the iOS project's `AppIcon.icon` (Icon Composer). To re-export after an icon change: `ictool "Task Focus/AppIcon.icon" --export-image --output-file icon.png --platform iOS --rendition Default --width 512 --height 512 --scale 2` (and `--rendition Dark` for the dark variant), then resize into `assets/app-icon-*.{png,webp}` and `assets/app-icon-dark-*.webp`. `app-icon-180.png` (the apple-touch-icon) must be flattened onto an opaque background.
+- `assets/app-store-qr.svg` encodes the App Store link with the `web_qr` campaign. Regenerate it if the link changes.
 
 The support contact is `sascha.thiele@pm.me`.
 

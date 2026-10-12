@@ -35,7 +35,7 @@ Preferences such as onboarding completion, check-in settings, purchase entitleme
 
 ### Your finished sessions
 
-When a focus session ends, Task Focus records it — what the session was for, when it ran, how it ended, and whether it paused anything. This history lives on your device. Task Focus Pro keeps it for good; without Pro the app keeps the current week.
+When a focus session ends, Task Focus records it — what the session was for, when it ran, how it ended, and whether it paused anything. This history lives on your device. Task Focus Pro keeps it for good; without Pro the app shows the last seven days.
 
 ## Usage counts
 

@@ -3,19 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#031018">
   <meta name="robots" content="noindex">
-  <title>Not found — Task Focus</title>
-  <link rel="icon" href="assets/app-icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css">
+  <meta name="theme-color" content="#edf2ec" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0c1611" media="(prefers-color-scheme: dark)">
+  <title>Page not found | Task Focus</title>
+  <link rel="icon" href="/assets/app-icon-32.png" type="image/png" sizes="32x32">
+  <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  <main class="final-cta" style="min-height:100svh;border:0">
-    <div class="final-rings" aria-hidden="true"><i></i><i></i><i></i></div>
-    <img src="assets/app-icon.svg" alt="" width="92" height="92">
-    <p class="eyebrow">404 / Nothing to finish here</p>
-    <h1 style="position:relative;z-index:2;margin:28px 0 34px;font-size:clamp(4rem,9vw,8rem)">This path<br>ends here.</h1>
-    <a class="arrow-link" href="./">Return to Task Focus <span aria-hidden="true">→</span></a>
+  <main class="not-found">
+    <div>
+      <picture><source srcset="/assets/app-icon-dark-256.webp" media="(prefers-color-scheme: dark)"><img src="/assets/app-icon-256.webp" alt="" width="88" height="88"></picture>
+      <h1>This page doesn’t exist.</h1>
+      <p>The link may be old or mistyped. Task Focus is a free iPhone app that pauses distracting apps until your task is done.</p>
+      <nav aria-label="Helpful links">
+        <a class="text-link" href="/">Go to the homepage</a>
+        <a class="text-link" href="/blog/">Read the guides</a>
+        <a class="text-link" href="/support.html">Get support</a>
+        <a class="text-link" href="https://apps.apple.com/app/apple-store/id6792549661?pt=128083530&amp;ct=web_site&amp;mt=8">Download on the App Store</a>
+      </nav>
+    </div>
   </main>
 </body>
 </html>

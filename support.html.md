@@ -49,7 +49,7 @@ No, and you are never charged for it either. A focus works with or without pausi
 
 ### What does Task Focus Pro include?
 
-Everything the app remembers after a session ends. Pro keeps every focus you finish, where the free app keeps the current week; it shows what your focus adds up to over time; and it lets you keep a profile for each kind of work, so the right apps pause for the right thing. It is a one-time, non-consumable purchase—not a subscription. Pausing apps stays free.
+Everything the app remembers after a session ends. Pro keeps every focus you finish and makes it searchable, where the free app keeps the last seven days. It reads insights across 30 days or all time, allows a five-minute break from a paused app up to three times a focus, keeps a profile for each kind of work and a schedule for each part of your week (free keeps one of each), shares your month as a card, and exports your history as a file. It is a one-time, non-consumable purchase ($19.99 in the US), not a subscription. Pausing apps stays free.
 
 ### How do I restore Task Focus Pro?
 

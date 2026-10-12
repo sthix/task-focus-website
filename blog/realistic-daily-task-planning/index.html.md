@@ -88,7 +88,7 @@ It’s worth being modest about what any planning method can promise. A large 20
 
 A good plan still has to be started, one task at a time. When it’s time for your main outcome, take the first piece of it, such as “write the proposal outline,” and protect it. If you tend to put it off, our guide on [how to start a task you keep putting off](https://taskfocusapp.com/blog/how-to-start-a-task/) helps turn it into a first step with a clear moment to begin.
 
-Task Focus is where that one task lives while you work on it. Planning happens wherever you like, on paper, in a notes app, or in your calendar. Task Focus doesn’t replace any of that. You bring in the next concrete task, pause the apps that pull you away, and mark it done. Each focus you finish appears in your history with how long it took (the free version keeps the current week), so your evening check has real numbers to compare your estimates against.
+Task Focus is where that one task lives while you work on it. Planning happens wherever you like, on paper, in a notes app, or in your calendar. Task Focus doesn’t replace any of that. You bring in the next concrete task, pause the apps that pull you away, and mark it done. Each focus you finish appears in your history with how long it took (the free version shows the last seven days), so your evening check has real numbers to compare your estimates against.
 
 ## Frequently asked questions
 

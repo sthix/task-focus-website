@@ -1,12 +1,16 @@
 {
   "name": "Task Focus",
   "short_name": "Task Focus",
-  "description": "One thing is enough.",
+  "description": "A free iPhone app blocker that pauses distracting apps until one task is done.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#031018",
-  "theme_color": "#031018",
+  "background_color": "#edf2ec",
+  "theme_color": "#edf2ec",
   "icons": [
-    { "src": "assets/app-icon-180.png", "sizes": "180x180", "type": "image/png" }
+    { "src": "/assets/app-icon-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "/assets/app-icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "related_applications": [
+    { "platform": "itunes", "url": "https://apps.apple.com/app/id6792549661", "id": "6792549661" }
   ]
 }
