@@ -29,10 +29,10 @@ When you change a page or add an article, update its Markdown copy, `llms.txt`, 
 
 ### IndexNow (Bing, which ChatGPT search and Copilot rely on)
 
-The key file `abcd3f10dccc023a0e839b4aa4ec14b5.txt` at the site root verifies ownership. After a deploy that adds or changes pages, submit the changed URLs:
+The key file `e016d15b679740f4b01f503145dcbfd9.txt` at the site root verifies ownership. After a deploy that adds or changes pages, submit the changed URLs:
 
 ```bash
-curl -s -X POST https://api.indexnow.org/indexnow -H 'Content-Type: application/json; charset=utf-8' -d '{"host":"taskfocusapp.com","key":"abcd3f10dccc023a0e839b4aa4ec14b5","keyLocation":"https://taskfocusapp.com/abcd3f10dccc023a0e839b4aa4ec14b5.txt","urlList":["https://taskfocusapp.com/blog/"]}'
+curl -s -X POST https://api.indexnow.org/indexnow -H 'Content-Type: application/json; charset=utf-8' -d '{"host":"taskfocusapp.com","key":"e016d15b679740f4b01f503145dcbfd9","keyLocation":"https://taskfocusapp.com/e016d15b679740f4b01f503145dcbfd9.txt","urlList":["https://taskfocusapp.com/blog/"]}'
 ```
 
 A `200` or `202` response means the submission was accepted. Also add the site to Bing Webmaster Tools (it can import the Search Console property) and submit the sitemap there.
