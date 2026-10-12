@@ -88,6 +88,13 @@ Use a single campaign token per published page. Do not split campaigns by CTA po
 | Homepage (`/`) | `web_home` | Active |
 | Block-apps guide | `web_block_apps_guide` | Create when published |
 | No-countdown page | `web_no_countdown` | Create when published |
+| Blog index (`/blog/`) | `web_blog` | Live in page; add in App Store Connect |
+| Blog: block distracting apps on iPhone | `web_blog_block_apps` | Live in page; add in App Store Connect |
+| Blog: Pomodoro vs. task-based focus | `web_blog_pomodoro` | Live in page; add in App Store Connect |
+| Blog: how to start a task | `web_blog_start_task` | Live in page; add in App Store Connect |
+| Blog: attention residue | `web_blog_attention` | Live in page; add in App Store Connect |
+| Blog: realistic daily planning | `web_blog_daily_plan` | Live in page; add in App Store Connect |
+| AI-agent files (`llms.txt`, `llms-full.txt`, `*.md`) | `web_ai` | Live in files; add in App Store Connect |
 
 Create links only in App Store Connect:
 

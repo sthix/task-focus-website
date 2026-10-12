@@ -1,0 +1,624 @@
+# Task Focus: full text of the guides
+
+> Source: https://taskfocusapp.com/ · Updated 2026-10-12 · Author: Sascha Thiele, developer of Task Focus. Each guide links its canonical web page; please cite that URL.
+
+## About Task Focus
+
+- **What it is:** Task Focus is an iPhone app blocker built around one task. You write the one thing you want to finish, choose the distracting apps, app categories, or websites to pause, and they stay paused until you mark the task done.
+- **Platform:** iPhone only, iOS 17 or later. No Android, Mac, Windows, or browser-extension version.
+- **Price:** Free to download. Pausing apps is free with no limit on sessions, no account, no ads, and no subscription. Task Focus Pro is an optional one-time purchase (non-consumable, no renewal) that keeps your full history, shows insights, adds a profile per kind of focus, and allows more than one schedule.
+- **How a session ends:** There is no countdown. Elapsed time counts up. Apps come back when you tap "Finish and restore apps". A safety limit you set (1 to 8 hours) returns them automatically if you never come back. You can also end without finishing at any time.
+- **What a paused app shows:** Opening a paused app mid-task shows "You're finishing: [your task]" and a "Back to it" button instead of the app.
+- **Other features:** Lock Screen Live Activity and Dynamic Island with the task and elapsed time, a widget, optional gentle check-in notifications, scheduled pausing (for example weekday mornings), and an iOS Focus filter so a Work or Study Focus can pause the chosen apps. No streaks, scores, or badges.
+- **Privacy:** No account. Task titles and app choices stay on the device (app choices are Apple Screen Time tokens). History can sync through the user's own private iCloud database as encrypted fields and can be exported. Anonymous usage counts (for example "a focus was finished") can be switched off in Settings.
+- **Requires:** Apple Screen Time (Family Controls) authorization, requested only when you turn on app pausing.
+- **App Store:** "Task Focus: ADHD App Blocker", Apple ID 6792549661. Download: https://apps.apple.com/app/apple-store/id6792549661?pt=128083530&ct=web_ai&mt=8
+- **Developer:** Sascha Thiele, independent developer. Support: sascha.thiele@pm.me
+
+---
+
+# How to Stop Opening Distracting Apps While You Work on iPhone
+
+> Silencing notifications stops what comes in. It does nothing about the apps you open yourself. Here’s a three-step setup that handles both.
+
+By Sascha Thiele, developer of Task Focus · Published 2026-10-12 · Canonical page: https://taskfocusapp.com/blog/block-distracting-apps-iphone/
+
+## The short answer
+
+Use an iPhone Focus to quiet incoming notifications, then name one task with a clear finish line and pause the specific apps you tend to open out of habit until that task is done. Focus filters notifications but doesn’t stop you opening apps; Screen Time limits and task-based blockers like Task Focus do.
+
+You put your iPhone on silent. You turned on a Focus. Nothing buzzes. And ten minutes into the report, your thumb opens Instagram anyway, because the next paragraph got hard and the feed is always easy.
+
+That is the part most “phone distraction” advice misses. Silencing your phone deals with what comes *to* you. It does nothing about what you go looking for. To actually get through a piece of work on an iPhone, you need a boundary for both.
+
+## Two ways your phone pulls you away
+
+**Incoming interruptions** are notifications, calls, and badges. They arrive on someone else’s schedule. In a 2015 lab experiment, people who merely *received* a call or text notification during an attention-demanding task made more errors, even though they never picked up the phone.[1] So quieting notifications is worth doing.
+
+**Self-initiated checking** is different. Nobody called you. You reached for the phone because the work became uncomfortable, boring, or unclear. A Focus that filters notifications doesn’t stop this, because opening an app is your own action, and iOS lets you do it.
+
+The fix is two steps: quiet what comes in, then put a boundary around the apps you tend to open yourself, for as long as one specific task takes.
+
+## Step 1: Quiet the incoming with an iPhone Focus
+
+Apple’s Focus feature lets you choose which people and apps can notify you while it’s on.[2] If you don’t already have one for work or study:
+
+1. Open **Settings** and tap **Focus**.
+2. Tap **+** and choose **Work**, **Study**, or **Custom**.
+3. Under allowed notifications, add the people who genuinely need to reach you, like family, your manager, or a childcare contact, and only the apps your work depends on.
+4. Optionally, set it to turn on automatically at a time or place, or turn it on from Control Center when you sit down.
+
+Menu names shift a little between iOS versions, but the idea stays the same. Keep the allowed list short. Every app on it is another way back into your phone.
+
+## Step 2: Name one task with a clear finish line
+
+Before you block anything, decide what you’re protecting. “Work on the report” has no end, so there’s never a clear moment when you’re done and allowed to check your phone. You stay half-working and half-tempted for hours.
+
+Shrink it to something you could finish in one sitting and recognise as done:
+
+| Vague intention | Task with a finish line |
+|---|---|
+| Work on the report | Write the three bullet points for section two |
+| Study for biology | Answer the practice questions for chapter 4 |
+| Deal with email | Reply to the two client emails from Monday |
+| Sort out the taxes | Find last year’s return and download this year’s form |
+
+If you can’t say what “done” looks like, the task is still too big. Our guide on [how to start a task you keep putting off](https://taskfocusapp.com/blog/how-to-start-a-task/) goes deeper on making that first step concrete.
+
+## Step 3: Put a boundary around the apps you open yourself
+
+iOS gives you a few ways to limit apps, and each ends at a different moment. Pick the one that matches the boundary you actually want.
+
+| Option | What it limits | When it ends | Good for |
+|---|---|---|---|
+| Focus | Notifications from chosen people and apps | When you or the schedule turn it off | Stopping incoming interruptions |
+| Screen Time App Limits | Daily time in chosen apps or categories | When the daily allowance runs out, until it resets | Capping total use across a day |
+| Screen Time Downtime | Most apps during a scheduled window | At the end of the schedule | Evenings and bedtime |
+| Task-based blocker | Apps, categories, or sites you choose | When you mark the task done | Getting one piece of work finished |
+
+App Limits and Downtime are useful, and if they already work for you, keep them. But they’re tied to the clock, not to your work. A daily limit doesn’t care whether you’re in the middle of a hard paragraph, and a schedule can end while you’re still halfway through.
+
+A task-based boundary lines up with the work itself: the apps stay paused while the task is open and come back when it’s finished. That is the idea Task Focus is built around.
+
+## How to set it up in Task Focus
+
+Task Focus is a free iPhone app that pauses the apps you choose until your task is done. It uses Apple’s Screen Time framework, so the first time you turn on app pausing, iOS asks you to allow Screen Time access.
+
+![Task Focus Focus tab with the task ‘Send the project outline’ typed in and a Begin this focus button](https://taskfocusapp.com/assets/blog/blog-name-the-task.webp)
+
+*Write the one thing you want to finish.*
+
+![An active focus in Task Focus showing elapsed time, the note ‘Apps paused’, and a Finish and restore apps button](https://taskfocusapp.com/assets/blog/blog-focus-active.webp)
+
+*The task stays on screen while time counts up.*
+
+1. **Write the task.** Type the finish line from Step 2, for example “Send the project outline.”
+2. **Choose what to pause.** Turn on *Pause distracting apps* and pick the apps, categories, or websites that usually pull you away.
+3. **Begin.** There’s no countdown to set. Time counts up, and your task stays visible on the Lock Screen.
+4. **Work.** If you open a paused app out of habit, you see your task instead of the feed, with a *Back to it* button.
+5. **Finish.** Tap *Finish and restore apps*. Everything comes back immediately.
+
+![A paused app in Task Focus showing ‘You’re finishing: Send the project outline’ and a Back to it button instead of the app](https://taskfocusapp.com/assets/blog/blog-paused-app.webp)
+
+*Opening a paused app mid-task shows the task you chose, not the feed.*
+
+Two details make this safe to try. First, you set a safety limit between one and eight hours, and your apps come back on their own at that point even if you never return to Task Focus. Second, you can always end a focus without finishing it, or switch app pausing off in Settings.
+
+If you already use a Work or Study Focus from Step 1, you can add Task Focus as a **Focus filter** on it, so turning on that Focus also pauses the apps you chose.
+
+## Try it on three tasks before you decide
+
+One good session tells you little. Instead, run a small experiment on yourself:
+
+****A three-task check****
+
+1. Pick three similar tasks this week, such as three study sessions or three writing blocks.
+2. For each one, name the finish line and pause the same apps.
+3. Afterwards, jot down two things: how many times you reached for a paused app, and whether you finished the task.
+
+If you keep hitting the paused screen for one particular app, that app was doing more of the distracting than you thought. If you rarely hit it at all, notifications may have been the bigger problem, and Step 1 is doing the heavy lifting.
+
+## What this won’t do
+
+It’s worth being clear about the edges:
+
+- Task Focus doesn’t silence notifications by itself. That’s the job of an iOS Focus, which is why Step 1 exists.
+- It works on iPhone only, and needs iOS 17 or later.
+- It can’t make a task easier. If you keep bouncing off the work, the task may be too big or unclear. Make it smaller rather than blocking harder.
+- Blocking only helps if you choose the apps you actually open. Be honest with yourself here.
+
+## Frequently asked questions
+
+### Does iPhone Focus mode block apps?
+
+Not in the sense of stopping you from opening them. A Focus filters notifications and can hide Home Screen pages, but you can still open any app through search or the App Library. To stop yourself opening an app, you need Screen Time limits or an app that uses Screen Time to pause it.
+
+### Can I block apps on iPhone without Screen Time?
+
+Not reliably. Third-party app blockers on iPhone, including Task Focus, work through Apple’s Screen Time framework, which is why they ask for Screen Time access. Your choices of apps stay on your device as Apple-provided tokens.
+
+### Is Task Focus free?
+
+Yes. Pausing apps is free and always will be, with no account and no subscription. Task Focus Pro is an optional one-time purchase that adds long-term history, insights, and extra profiles.
+
+### What if I need a paused app during the task?
+
+You can end the focus at any time, with or without marking the task done. Choose your paused apps so that anything you genuinely need for the task, like a messaging app your team uses, stays available.
+
+## Try it with Task Focus
+
+Choose one task with a clear finish line. Pause the apps that pull you away, then mark the task done. Free on iPhone, no account and no subscription.
+
+[Download Task Focus on the App Store](https://apps.apple.com/app/apple-store/id6792549661?pt=128083530&ct=web_ai&mt=8) (free app pausing, iPhone with iOS 17 or later, optional one-time Pro).
+
+## Sources
+
+Numbers in square brackets in the text refer to these sources.
+
+1. Stothart, C., Mitchum, A., & Yehnert, C. (2015). The attentional cost of receiving a cell phone notification. Journal of Experimental Psychology: Human Perception and Performance, 41(4), 893–897. https://pubmed.ncbi.nlm.nih.gov/26121498/
+2. Apple. Set up a Focus on iPhone. iPhone User Guide. https://support.apple.com/guide/iphone/iphd6288a67f/ios
+
+## Related guides
+
+- [Pomodoro or Task-Based Focus: How to Choose a Stopping Point](https://taskfocusapp.com/blog/pomodoro-vs-task-based-focus/)
+- [How to Start a Task When You Keep Putting It Off](https://taskfocusapp.com/blog/how-to-start-a-task/)
+
+
+---
+
+# Pomodoro or Task-Based Focus: How to Choose a Stopping Point
+
+> One ends when the timer rings. The other ends when the work is done. Neither is better in general, but one probably fits the task in front of you.
+
+By Sascha Thiele, developer of Task Focus · Published 2026-10-12 · Canonical page: https://taskfocusapp.com/blog/pomodoro-vs-task-based-focus/
+
+## The short answer
+
+Use Pomodoro (a time boundary) for open-ended work without a natural finish line, or when fatigue is the main risk. Use task-based focus (a completion boundary) when you can name one small output and finish it in one sitting. Either way, take real breaks: research supports short rest, but not one magic ratio.
+
+The timer goes off. You’re halfway through a sentence, and for the first time in an hour the work is actually moving. The technique says: stop, take your five minutes. So you pick up your phone, and twenty minutes later you’re trying to remember what the sentence was.
+
+Or the opposite happens. You sit through a whole 25-minute block without getting anywhere, because the task was never clear, and the timer rewards you with a break for time spent rather than work done.
+
+Neither means Pomodoro is broken. It means the stopping point didn’t fit the work. This guide compares two kinds of stopping points, and helps you pick the right one for the task in front of you.
+
+## What the Pomodoro Technique actually is
+
+Pomodoro is often reduced to “25 minutes on, 5 minutes off.” Its creator, Francesco Cirillo, describes something broader: planning the day’s tasks, estimating effort, working in focused intervals, handling interruptions deliberately, taking real breaks, and reviewing how it went.[1] The timer is one tool inside that system.
+
+That matters for a fair comparison. Many people who say “Pomodoro doesn’t work for me” only tried the alarm. Many people for whom it works well are getting a lot from the planning and the breaks.
+
+## Time boundaries and completion boundaries
+
+Every focus session ends somewhere. There are two basic ways to decide where.
+
+- **A time boundary** ends the session when a set amount of time has passed. Pomodoro intervals, calendar blocks, and timed app blockers all work this way.
+- **A completion boundary** ends the session when a defined piece of work is done. “Send the outline,” “finish the problem set,” “reply to both emails.”
+
+Neither is better in general. They protect different things. A time boundary protects your energy and keeps open-ended work from swallowing the day. A completion boundary protects momentum and gives you a clear sense of being done.
+
+|  | Time boundary (Pomodoro) | Completion boundary (task-based) |
+|---|---|---|
+| Session ends when | The timer rings | The task is done |
+| Works best for | Open-ended work, long days, tasks hard to define | Work you can name as one concrete output |
+| Common pitfall | Breaking off right when momentum builds | Choosing a task too big to finish in one sitting |
+| Built-in rest | Yes, scheduled | No, you have to plan it |
+| Sense of progress | Intervals completed | Outputs finished |
+
+## When a timer is the better choice
+
+Reach for a time boundary when the work has no natural finish line. A literature review, a large refactor, exam revision across a whole subject, or exploratory design all keep expanding as you go. “Work on it for 50 minutes, then reassess” is often more honest than pretending you know where the end is.
+
+Timers also help on long days where fatigue is the real risk. If you tend to work four hours straight and crash, scheduled breaks are a feature, not an interruption.
+
+## When a completion boundary fits better
+
+Use a completion boundary when you can name the output and finish it in one sitting. Writing three paragraphs, sending an invoice, answering a set of practice questions, or fixing one bug all fit.
+
+It also helps if the timer itself has become the distraction: if you watch the countdown, or treat the end of the interval as permission to stop thinking. Ending on “done” rather than on the clock means the break comes at a natural seam in the work, which makes it easier to come back.
+
+## Big tasks need smaller finish lines
+
+The most common way a completion boundary fails is that the task is too large. “Work on my report” has no finish line, so a task-based session for it never ends, which is worse than a timer.
+
+The fix is to break it into finishable pieces:
+
+> “Work on my report” → “Write three bullet points for the outline.”
+
+Three bullets is small, specific, and obviously done or not done. When it’s finished, you stop, take a break, and choose the next piece. If you’re not sure how small to go, our guide to [starting a task you keep putting off](https://taskfocusapp.com/blog/how-to-start-a-task/) walks through it.
+
+## Task-based focus still needs rest
+
+One honest advantage of Pomodoro is that rest is built in. A completion-based routine doesn’t do that for you.
+
+The research on short breaks supports taking them seriously, with some caveats. A 2022 meta-analysis of 22 samples found that “micro-breaks” of up to ten minutes gave small improvements in feeling energetic and less fatigued. Their effect on overall performance wasn’t statistically significant, and the studies didn’t settle on one ideal break length.[2] So there’s good reason to rest between pieces of work, and little reason to treat 25/5 as a magic ratio.
+
+In practice: when you finish a task, stand up, get water, look at something far away. Then pick the next finish line.
+
+## You can combine them
+
+This isn’t either/or. Some people protect a task until it’s done and set a separate timer as a reminder to take a break if the work runs long. Others use Pomodoro intervals inside a larger task and stop the whole session when a deliverable is finished.
+
+Task Focus takes the completion side. You name one task, choose the apps that pull you away, and they stay paused until you mark it done. There’s no countdown, just elapsed time counting up so you can see how long it’s been. Optional check-ins can nudge you at an interval you choose. If you like a timer for breaks, keep using one alongside it. Our guide to [stopping distracting apps on iPhone](https://taskfocusapp.com/blog/block-distracting-apps-iphone/) shows the full setup.
+
+## How to choose for yourself
+
+Because no study has compared these two approaches head-to-head for your kind of work, the best evidence is your own. Try it for a week:
+
+****A one-week comparison****
+
+1. Pick a type of work you do often, such as writing or studying.
+2. Do a few sessions with a timer and a few with a defined finish line.
+3. After each, note three things: what you produced, how tired you felt, and how easy it was to start again next time.
+
+You may find you want different boundaries for different work. That’s a good outcome, not an inconsistent one.
+
+## Frequently asked questions
+
+### What is a good alternative to the Pomodoro Technique?
+
+If timers interrupt your momentum, try task-based focus: define one small output, protect it from distractions, and stop when it’s done. If you mainly struggle with long, open-ended work, try longer time blocks, such as 50 minutes, with a short planned break.
+
+### Why doesn’t Pomodoro work for me?
+
+Common reasons are that the timer ends when momentum is building, that the task inside each interval is unclear, or that the break turns into phone time that’s hard to return from. Each has a different fix: a completion boundary, a smaller task, or a break away from your phone.
+
+### Does Task Focus have a Pomodoro timer?
+
+No. Task Focus has no countdown. It shows elapsed time and ends a focus when you mark the task done, with a safety limit you set between one and eight hours. You can use any timer app alongside it.
+
+## Try it with Task Focus
+
+Name one small task. Try protecting it from the apps that usually interrupt you, and stop when it’s done, not when a timer says so.
+
+[Download Task Focus on the App Store](https://apps.apple.com/app/apple-store/id6792549661?pt=128083530&ct=web_ai&mt=8) (free app pausing, iPhone with iOS 17 or later, optional one-time Pro).
+
+## Sources
+
+Numbers in square brackets in the text refer to these sources.
+
+1. Cirillo, F. The Pomodoro Technique. Official website of Francesco Cirillo. https://www.pomodorotechnique.com/
+2. Albulescu, P., Macsinga, I., Rusu, A., Sulea, C., Bodnaru, A., & Tulbure, B. T. (2022). “Give me a break!” A systematic review and meta-analysis on the efficacy of micro-breaks for increasing well-being and performance. PLOS ONE, 17(8), e0272460. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0272460
+
+## Related guides
+
+- [How to Stop Opening Distracting Apps While You Work on iPhone](https://taskfocusapp.com/blog/block-distracting-apps-iphone/)
+- [How to Start a Task When You Keep Putting It Off](https://taskfocusapp.com/blog/how-to-start-a-task/)
+
+
+---
+
+# How to Start a Task When You Keep Putting It Off
+
+> When a task has sat on your list for days, the problem is rarely motivation. It’s usually that you can’t act on it directly, and there’s no clear moment to begin.
+
+By Sascha Thiele, developer of Task Focus · Published 2026-10-12 · Canonical page: https://taskfocusapp.com/blog/how-to-start-a-task/
+
+## The short answer
+
+Rewrite the task as one visible first action, such as “draft the opening paragraph” instead of “finish my essay”, then attach it to a reliable cue with an if-then sentence: “When I sit down after lunch, I will draft the opening paragraph.” Research on if-then plans shows a medium-to-large effect on reaching goals.
+
+You know what needs doing. It has been on your list for days, maybe weeks. Every time you think about it, you feel a small drop in your stomach and find something else to do first. Then something else. Then it’s evening.
+
+This isn’t usually a motivation problem. More often, the task is written as an outcome you can’t act on directly, and there’s no clear moment when you’re supposed to begin. Fix those two things and starting gets much easier.
+
+## A goal isn’t something you can start
+
+“Finish my essay” is a goal. You can’t do it right now, at your desk, in the next ten minutes. When your brain looks at it, it sees the whole thing at once: the research, the structure, the blank page. Avoiding that is a reasonable reaction.
+
+An action is something you could see yourself doing. “Draft the opening paragraph” is an action. So is “open the essay document and paste in my three best quotes.” The test is simple: could someone watching you tell when you’d started, and when you’d finished?
+
+| Goal | First action |
+|---|---|
+| Finish my essay | Draft the opening paragraph |
+| Get ready for the interview | Write answers to three likely questions |
+| Clean up the garage | Clear the shelf by the door |
+| Sort out my health insurance claim | Find the receipt and photograph it |
+
+## Decide when, not just what: if-then plans
+
+Once you have an action, attach it to a moment. Psychologists call this an **implementation intention**, or more simply an if-then plan: “When situation X happens, I will do Y.”
+
+The evidence for this is unusually strong. A 2006 meta-analysis of 94 independent tests found that forming if-then plans had a medium-to-large effect on reaching goals (an average effect size of d = .65).[1] That is a statistic across groups of people, not a promise about any one person, but it’s a good reason to try.
+
+A separate line of lab research found that making a specific plan for an unfinished goal reduced how much that goal intruded on people’s thoughts during other tasks.[2] In other words, deciding when you’ll do something can help you stop worrying about it in the meantime.
+
+## Write your own if-then sentence
+
+A good plan has a reliable cue and a concrete action:
+
+> “When I sit down after lunch, I will draft the opening paragraph.”
+
+Choose a cue that actually happens every day and is easy to notice: finishing a meal, arriving at the library, closing your laptop after a meeting, sitting down with the first coffee. Avoid vague cues like “when I have time” or “this afternoon.” They never quite arrive.
+
+Some more examples:
+
+- **Study:** “When I get to the library, I will do the first five practice questions before opening anything else.”
+- **Work:** “When my 10 o’clock call ends, I will write the three-line summary for the client.”
+- **Home admin:** “When I finish breakfast on Saturday, I will find last year’s tax return and put it on the desk.”
+
+Write the sentence down. Saying it in your head is easy to forget; seeing it written makes it a decision.
+
+## Make the first step smaller than seems necessary
+
+If you still don’t start, the action is probably too big. Shrink it until starting feels almost silly. Not “write the report,” but “write the headings.” Not “do the dishes,” but “clear the counter by the sink.”
+
+There isn’t a scientifically optimal size for a first step. This is practical advice, not a formula. But the smaller the step, the less there is to avoid, and finishing a small step often makes the next one easier to pick up.
+
+## Remove the easiest escape route
+
+For most people, the easiest escape from an uncomfortable task is the phone. It takes one second and requires no decision. If that’s your pattern, close the exit before you begin.
+
+This is where Task Focus fits. When your cue arrives, type the first action you wrote down, pick the apps you usually escape into, and begin. If you reach for one of them, you see the task you chose instead of the feed. When you’ve done the step, mark it done and the apps come back. The full setup is in our guide to [stopping distracting apps on iPhone](https://taskfocusapp.com/blog/block-distracting-apps-iphone/).
+
+Task Focus doesn’t write if-then plans for you. The sentence is your part; the app just protects the moment you chose.
+
+## When the plan breaks, change the plan
+
+Plans meet real days. The call runs over, the library is closed, a child gets sick. That is not failure; it’s information.
+
+It’s also worth knowing that very specific plans have a cost. Research by Masicampo and Baumeister found that people who made a detailed plan sometimes became less open to better alternatives that came up along the way.[3] So hold the plan firmly enough to start, and loosely enough to change. If a cue doesn’t work twice, pick a different one.
+
+## Putting things off isn’t a character flaw
+
+People delay tasks for many reasons: the task is unclear, it’s unpleasant, it’s tied to something stressful, they’re tired, or starting is genuinely hard for them. Some of that won’t be solved by a better sentence. If you find starting is persistently difficult across your whole life, that is worth discussing with a professional. An app and a planning trick aren’t a treatment for ADHD or anything else.
+
+But for the ordinary, stuck-on-one-thing kind of delay, a concrete action and a clear moment to begin go a long way.
+
+## Frequently asked questions
+
+### How do I start a task when I’m overwhelmed?
+
+Ignore the whole task for now and choose only the first visible action, something you could finish in 10 to 15 minutes. Attach it to a specific moment today with an if-then sentence, and start there.
+
+### What is an example of an implementation intention?
+
+“When I sit down after lunch, I will draft the opening paragraph of my essay.” It names a situation (sitting down after lunch) and a concrete response (drafting the opening paragraph).
+
+### What should I do right after finishing the first step?
+
+Take a short break, then choose the next step, written the same way. If your day is already crowded, our guide on [planning a day that actually fits](https://taskfocusapp.com/blog/realistic-daily-task-planning/) helps decide what deserves the next slot.
+
+## Try it with Task Focus
+
+Write one concrete first step. Then put that task into Task Focus for your next session, and let the apps you usually escape into wait.
+
+[Download Task Focus on the App Store](https://apps.apple.com/app/apple-store/id6792549661?pt=128083530&ct=web_ai&mt=8) (free app pausing, iPhone with iOS 17 or later, optional one-time Pro).
+
+## Sources
+
+Numbers in square brackets in the text refer to these sources.
+
+1. Gollwitzer, P. M., & Sheeran, P. (2006). Implementation intentions and goal achievement: A meta-analysis of effects and processes. Advances in Experimental Social Psychology, 38, 69–119. https://doi.org/10.1016/S0065-2601(06)38002-1
+2. Masicampo, E. J., & Baumeister, R. F. (2011). Consider it done! Plan making can eliminate the cognitive effects of unfulfilled goals. Journal of Personality and Social Psychology, 101(4), 667–683. https://pubmed.ncbi.nlm.nih.gov/21688924/
+3. Masicampo, E. J., & Baumeister, R. F. (2012). Committed but closed-minded: When making a specific plan for a goal hinders success. Social Cognition, 30(1), 37–55. https://doi.org/10.1521/soco.2012.30.1.37
+
+## Related guides
+
+- [How to Stop Opening Distracting Apps While You Work on iPhone](https://taskfocusapp.com/blog/block-distracting-apps-iphone/)
+- [Why Your To-Do List Never Fits Your Day](https://taskfocusapp.com/blog/realistic-daily-task-planning/)
+
+
+---
+
+# Why You Keep Thinking About the Last Task
+
+> A quick check of your messages rarely costs only the seconds it takes. Part of your attention stays behind. Here’s why, and how to leave tasks more cleanly.
+
+By Sascha Thiele, developer of Task Focus · Published 2026-10-12 · Canonical page: https://taskfocusapp.com/blog/attention-residue-task-switching/
+
+## The short answer
+
+Attention residue is the part of your attention that stays on a previous task after you switch, especially when that task was left unfinished. Reduce avoidable switches, and before necessary ones, write a short return note: where you stopped, your next action, and when you’ll come back.
+
+You’re halfway through writing something. You glance at your messages, just quickly. There’s a question from a colleague, so you answer it. Then you go back to the document and stare at it. You’ve read the last paragraph three times and you’re still thinking about the message.
+
+That lingering pull has a name: **attention residue**. It explains why a “quick check” rarely costs only the seconds it takes, and it points to two practical fixes: switch less often when you have the choice, and leave cleaner when you don’t.
+
+## What attention residue is
+
+The term comes from organisational researcher Sophie Leroy. In a 2009 paper, she reported two experiments in which people moved from one task to another. When the first task was left unfinished, part of their attention stayed with it, and they performed worse on the next task.[1]
+
+Put simply: your mind doesn’t switch as cleanly as your screen does. When you leave something open, a portion of your thinking stays behind to keep track of it.
+
+One surprising detail is that finishing the first task wasn’t always enough to clear the residue; the conditions under which people finished mattered too. Completion helps, but how you leave a task matters as well.
+
+## Avoidable switches and necessary ones
+
+Not every switch is a mistake. Some interruptions are part of the job: a meeting starts, a customer calls, your child needs you. Others are self-made: checking the inbox “just in case,” opening a feed during a pause in thinking, glancing at a notification that could have waited an hour.
+
+- **Avoidable switches** are worth reducing. Each one leaves a little residue for no real gain.
+- **Necessary switches** can’t be removed, but you can make them cheaper by leaving the first task in a clear state.
+
+You may have seen a precise “minutes to refocus” figure quoted online. The research covered here doesn’t establish one universal number, and the real cost likely varies by person and task. What is consistent is the direction: leaving work unfinished and unplanned makes the next thing harder.
+
+## The fix for necessary switches: a ready-to-resume plan
+
+In a later study, Leroy and Theresa Glomb tested a simple intervention. Before switching to an interrupting task, people took a moment to note where they were and how they’d resume the original work. Under the conditions they studied, this reduced attention residue and helped people perform better on the interrupting task.[2]
+
+The idea is that once your mind knows the unfinished work is “parked” safely, it doesn’t need to keep holding on to it.
+
+## Try a three-line return note
+
+Here’s a practical version you can use any time you have to leave something unfinished. It’s an adaptation of the research idea, not a copy of the study’s method. Before you switch, write three lines:
+
+****The return note****
+
+1. **Where I stopped:** the exact point you left off.
+2. **Next action:** the very first thing to do when you come back.
+3. **When I’ll return:** a time or a cue.
+
+A worked example, written thirty seconds before a meeting:
+
+> Stopped mid-way through section 2, after the pricing paragraph. Next: write the paragraph comparing the two options. Back at 2:30, after the team call.
+
+Paper works. So does your usual notes app. The point isn’t the tool; it’s that you made the decision before leaving, so your attention doesn’t have to keep making it during the meeting.
+
+## Fewer avoidable switches
+
+For the self-made switches, prevention beats recovery. A few things help:
+
+- **Batch your checking.** Choose set times for email and messages, such as before lunch and at the end of the day, rather than checking whenever there’s a pause.
+- **Quiet what comes in.** An iPhone Focus can hold back notifications from everyone except the people who truly need to reach you.
+- **Make the easiest escape a bit harder.** Most self-made switches happen through the phone, in a second, without a decision. Pausing those apps while you work changes that.
+
+Task Focus handles the last one. Write the task you’re returning to, for example the “next action” from your return note, choose the apps that tend to pull you away, and begin. If you reach for one mid-task, you see the task you chose instead of the feed. Mark it done and everything comes back. Our guide to [stopping distracting apps on iPhone](https://taskfocusapp.com/blog/block-distracting-apps-iphone/) covers both the Focus and the app setup step by step.
+
+Task Focus doesn’t write return notes for you. That part lives on paper or in your notes, which keeps it quick.
+
+## Single-tasking is a practice, not a personality
+
+Nobody works on only one thing all day. The goal isn’t perfect focus, it’s fewer pointless switches and cleaner exits from the necessary ones. A good day might still include a dozen task changes. What changes is that each one is a decision, and you leave something behind that tells you how to come back.
+
+## Frequently asked questions
+
+### What is attention residue in simple terms?
+
+It’s the part of your attention that stays stuck on a previous task after you switch to a new one, especially when the previous task was left unfinished. It can make you slower or less accurate on the new task.
+
+### How do I stop thinking about my last task?
+
+Before switching, write down where you stopped, your next action, and when you’ll return. That gives your mind a reason to let go. When you have the choice, finish a natural chunk of the first task before switching.
+
+### Is task switching the same as multitasking?
+
+Mostly, yes. What feels like doing two things at once is usually rapid switching between them. Each switch has a cost, and attention residue is one part of that cost.
+
+## Try it with Task Focus
+
+Choose one concrete task for your next session. Protect it from optional app switches, and come back to it without the feed in between.
+
+[Download Task Focus on the App Store](https://apps.apple.com/app/apple-store/id6792549661?pt=128083530&ct=web_ai&mt=8) (free app pausing, iPhone with iOS 17 or later, optional one-time Pro).
+
+## Sources
+
+Numbers in square brackets in the text refer to these sources.
+
+1. Leroy, S. (2009). Why is it so hard to do my work? The challenge of attention residue when switching between work tasks. Organizational Behavior and Human Decision Processes, 109(2), 168–181. https://doi.org/10.1016/j.obhdp.2009.04.002
+2. Leroy, S., & Glomb, T. M. (2018). Tasks interrupted: How anticipating time pressure on resumption of an interrupted task causes attention residue and low performance on interrupting tasks and how a “ready-to-resume” plan mitigates the effects. Organization Science, 29(3), 380–397. https://doi.org/10.1287/orsc.2017.1184
+
+## Related guides
+
+- [How to Stop Opening Distracting Apps While You Work on iPhone](https://taskfocusapp.com/blog/block-distracting-apps-iphone/)
+- [How to Start a Task When You Keep Putting It Off](https://taskfocusapp.com/blog/how-to-start-a-task/)
+
+
+---
+
+# Why Your To-Do List Never Fits Your Day
+
+> How to plan more realistically: size the list to the hours you actually have, estimate from what really happened last time, and put one meaningful outcome first.
+
+By Sascha Thiele, developer of Task Focus · Published 2026-10-12 · Canonical page: https://taskfocusapp.com/blog/realistic-daily-task-planning/
+
+## The short answer
+
+Your list doesn’t fit because it mixes everything you might do with what you can do today, and because people reliably underestimate their own tasks (the planning fallacy). Count your real available hours, estimate from similar past tasks, leave room for interruptions, and commit to one useful outcome first.
+
+Every morning the list looks reasonable. Twelve items, a good day’s work. By evening, four are done, two are half-done, and the rest move to tomorrow, which already had its own twelve. After a few weeks, the list stops feeling like a plan and starts feeling like a verdict.
+
+The problem usually isn’t effort. It’s that the list was never sized to the day. Here’s how to plan a day that actually fits, and how to get better at it every evening.
+
+## Capturing everything isn’t the same as committing to today
+
+A to-do list often does two jobs at once. It holds **everything you might need to do**, so you don’t forget, and it’s supposed to say **what you’ll do today**. Those need different lists.
+
+- **The inventory** can be as long as it needs to be. It’s a storage place, not a promise.
+- **Today’s commitment** should be small enough that finishing it is realistic on an ordinary day, interruptions included.
+
+Most of the frustration comes from treating the inventory as the commitment.
+
+## Why we keep overfilling the day
+
+Psychologists call it the **planning fallacy**. In classic studies by Buehler, Griffin and Ross, people consistently underestimated how long their own tasks would take, even when they knew similar tasks had run late before. When predicting, they focused on how the future task would go and largely ignored their own past experience.[1]
+
+The same research offers the way out. When people were prompted to connect their past experience to their prediction, the optimistic bias disappeared in one of the studies. In plain terms: stop asking “how long should this take?” and ask “how long did the last one like it actually take?”
+
+## A realistic plan in four steps
+
+### 1. Count the hours you actually have
+
+Start with your working day, then subtract what’s already spoken for: meetings, commuting, lunch, school pickup, the admin that always happens. Many people find their “eight-hour day” has three or four hours of real working time.
+
+### 2. Estimate from past examples
+
+For each candidate task, think of the last similar task you finished and how long it really took, not how long you hoped it would. If you have no record, a rough honest guess is still better than an optimistic one.
+
+### 3. Leave room for the day you’ll actually have
+
+Interruptions aren’t surprises; they’re part of the day. Look at a typical day last week: how much time went to things you didn’t plan? Leave about that much space. There’s no universal percentage. Your own track record is the best guide.
+
+### 4. Choose one useful, achievable outcome
+
+Before you fill the rest of the day, decide what would make it a good day if it were the only thing you finished. Put it first. Then add smaller items only if there’s time left in the estimate.
+
+## Worked example: an overfilled Tuesday
+
+Here’s a real-looking list from someone with two meetings and roughly four hours of open time:
+
+| Original list | Honest estimate | Decision |
+|---|---|---|
+| Draft the project proposal | 3 hours (last one took 3½) | Split: write the outline and the problem section today (1½ h) |
+| Reply to client emails | 45 min | Keep, after lunch |
+| Review the design mockups | 1 hour | Keep |
+| Update the budget sheet | 1 hour | Move to Thursday |
+| Book dentist appointment | 10 min | Keep, between meetings |
+| Clean up the shared drive | 2 hours | Back to the inventory |
+| Read the industry report | 1 hour | Back to the inventory |
+
+The original list needed almost nine hours. The plan now needs about three and a half, leaving some room for the unplanned. The one outcome that makes the day good: **the proposal outline and problem section are written**.
+
+Notice that nothing was deleted. Two items went back to the inventory, one moved to a specific day, and the biggest task was split into a piece that can actually be finished today.
+
+## End the day by comparing estimate and reality
+
+This is the step that makes tomorrow’s plan better. Before you stop, take two minutes:
+
+****A two-minute evening check****
+
+- What did I finish?
+- For the main task, how long did I estimate, and how long did it take?
+- What came up that I didn’t plan for?
+
+After a week, you’ll have a small, honest record of how long things take you and how much of your day disappears to interruptions. That record is what step 2 and step 3 need.
+
+It’s worth being modest about what any planning method can promise. A large 2021 meta-analysis of 158 studies found moderate relationships between time management and both performance and well-being, but much of that evidence was correlational and didn’t validate any single daily formula.[2] The routine above is a sensible starting point, not a proven recipe. Adjust it to your days.
+
+## From plan to the next task
+
+A good plan still has to be started, one task at a time. When it’s time for your main outcome, take the first piece of it, such as “write the proposal outline,” and protect it. If you tend to put it off, our guide on [how to start a task you keep putting off](https://taskfocusapp.com/blog/how-to-start-a-task/) helps turn it into a first step with a clear moment to begin.
+
+Task Focus is where that one task lives while you work on it. Planning happens wherever you like, on paper, in a notes app, or in your calendar. Task Focus doesn’t replace any of that. You bring in the next concrete task, pause the apps that pull you away, and mark it done. Each focus you finish appears in your history with how long it took (the free version keeps the current week), so your evening check has real numbers to compare your estimates against.
+
+## Frequently asked questions
+
+### Why is my to-do list always too long?
+
+Usually because it mixes everything you might do with what you can do today, and because people tend to underestimate how long their own tasks take. Separate the inventory from today’s commitment, and estimate from past experience.
+
+### How many tasks should I plan per day?
+
+There’s no universal number. Size the plan to your real available hours, minus time for interruptions, and make sure one meaningful outcome comes first.
+
+### What is the planning fallacy?
+
+It’s the tendency to underestimate how long your own future tasks will take, even when similar tasks have run late before. Basing estimates on how long comparable past tasks actually took reduces it.
+
+## Try it with Task Focus
+
+Plan your day, then start the next task. Bring the next concrete task into Task Focus, pause what pulls you away, and see how long it really took.
+
+[Download Task Focus on the App Store](https://apps.apple.com/app/apple-store/id6792549661?pt=128083530&ct=web_ai&mt=8) (free app pausing, iPhone with iOS 17 or later, optional one-time Pro).
+
+## Sources
+
+Numbers in square brackets in the text refer to these sources.
+
+1. Buehler, R., Griffin, D., & Ross, M. (1994). Exploring the “planning fallacy”: Why people underestimate their task completion times. Journal of Personality and Social Psychology, 67(3), 366–381. https://bear.warrington.ufl.edu/brenner/mar7588/Papers/buehler-et-al-1994.pdf
+2. Aeon, B., Faber, A., & Panaccio, A. (2021). Does time management work? A meta-analysis. PLOS ONE, 16(1), e0245066. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0245066
+
+## Related guides
+
+- [How to Start a Task When You Keep Putting It Off](https://taskfocusapp.com/blog/how-to-start-a-task/)
+- [Why You Keep Thinking About the Last Task](https://taskfocusapp.com/blog/attention-residue-task-switching/)
+
